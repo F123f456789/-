@@ -1,0 +1,44 @@
+# Dependencies and local tools
+node_modules/
+runtime/
+models/
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# User media, accounts, drafts, browser sessions, logs and local receipts
+data/
+cache/
+verification/
+输出/
+备份/
+backups/
+exports/
+*.log
+*.mp4
+*.mov
+*.mkv
+*.wav
+*.mp3
+
+# Local machine configuration and secrets
+runtime-config.json
+.env
+.env.*
+!.env.example
+.auth*
+.cheat-secrets.json
+.cheat-cache/
+*.pem
+*.key
+*.pfx
+
+# Personal development records must never become release files
+验收记录.md
+界面验收清单.md
+specs/
+.publish-*.json
+
+.DS_Store
+Thumbs.db

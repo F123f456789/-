@@ -1,0 +1,6 @@
+{
+  "ffmpeg": "runtime/ffmpeg/bin/ffmpeg.exe",
+  "ffprobe": "runtime/ffmpeg/bin/ffprobe.exe",
+  "python": "runtime/python/Scripts/python.exe",
+  "whisperModel": "models/faster-whisper"
+}
